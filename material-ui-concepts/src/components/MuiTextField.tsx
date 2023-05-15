@@ -14,6 +14,11 @@ function MuiTextField() {
       </Stack>
       <Stack spacing={2} direction="row">
         <TextField label="name" required />
+        <TextField
+          label="password"
+          type="password"
+          helperText="Do not share pswd with anyone"
+        />
       </Stack>
     </Stack>
   );
